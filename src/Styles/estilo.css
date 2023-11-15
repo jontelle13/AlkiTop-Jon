@@ -1,0 +1,79 @@
+.logo{
+    width:110px;
+}
+.logged{
+    width:60px;
+}
+.gehituProdukt{
+    width: 30px;
+}
+.btn-gehituProdukt {
+    height: 42px;
+    --bs-btn-color: white;
+    --bs-btn-bg: #07251b;
+    --bs-btn-border-color: #4e9518;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #c6c7c8;
+    --bs-btn-focus-shadow-rgb: 211, 212, 213;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #0f533d;
+    --bs-btn-active-border-color: white;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(108, 196, 26, 0.125);
+    --bs-btn-disabled-color: white;
+    --bs-btn-disabled-bg: #0a3d2c;
+    --bs-btn-disabled-border-color: #f8f9fa;
+
+}
+
+.btn-gehituProdukt:active {
+    -webkit-box-shadow: 0px 0px 3px 1px white;
+    -moz-box-shadow: 0px 0px 3px 1px white;
+    box-shadow: 0px 0px 3px 1px white;
+}
+
+.titulua {
+    font-size: 4.0em;
+    font-family: 'Comic Sans MS', sans-serif; 
+    font-weight: 500; 
+    color:#0f533d;
+}
+
+
+.icon-kategoria{
+    width:45px;
+}
+
+.btn-kategoria{
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: black;
+    --bs-btn-disabled-color: white;
+    --bs-btn-disabled-bg: #0a3d2c;
+    --bs-btn-disabled-border-color: #f8f9fa;
+}
+
+.btn-kategoria:active {
+    box-shadow: 0px 0px 3px 1px rgb(12, 124, 21);
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 80px; /* Adjust the size for smaller screens */
+    }
+
+    .logged {
+        width: 40px; /* Adjust the size for smaller screens */
+    }
+
+  
+
+    .titulua {
+        font-size: 2.5em; /* Adjust the font size for smaller screens */
+    }
+
+    .icon-kategoria {
+        width: 30px; /* Adjust the size for smaller screens */
+    }
+}

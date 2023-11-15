@@ -1,12 +1,15 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-import { Header } from './Header.jsx'
+import ReactDOM from 'react-dom';
+
+import {Container} from './components/Container.jsx'
+import { Header } from './components/Header.jsx'
+import { Produktuak } from './components/Produktuak.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <div class="bg-light">
     <Header />
-    <App />
-  </React.StrictMode>,
+    <Container />
+    <Produktuak />
+  </div>
+  
 )
